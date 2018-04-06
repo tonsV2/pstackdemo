@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web:
-    image: tons/stackdemo
+    image: tons/pstackdemo
     build: .
     ports:
       - "8000:8000"
